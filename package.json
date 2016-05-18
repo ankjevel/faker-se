@@ -1,0 +1,15 @@
+{
+  "name": "faker-se",
+  "version": "1.0.0",
+  "description": "Fake name generator",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "author": "Dennis Pettersson <mail@dennispettersson.se>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  }
+}
