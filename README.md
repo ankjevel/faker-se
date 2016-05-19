@@ -1,22 +1,17 @@
 # faker-se
 
-Generate a fake swedish user from [fakenamegenerator](http://www.fakenamegenerator.com).
+Get information about a user from merinfo.
 
 usage:
 
 ```javascript
 'use strict'
 
-const { basedOnPNR, parsePNR } = require('faker-se')
+const { basedOnPNR } = require('faker-se')
 
 basedOnPNR('198601010050')
   .then(({ name = '', address = { street: '', postal: '', region: '' }, phone = '', email = '' } = {}) => {
     // handle person
-  })
-
-parsePNR('198601010050')
-  .then(({ age = 30, gender = 'm' } = {}) => {
-    // do something with parsed content
   })
 
 ```
